@@ -1,0 +1,5 @@
+@charset "utf-8";
+
+.btn{min-width: 48px}
+.btn:not(.btn-danger){font-size: 23px;font-weight: 700}
+.input-group{width: 300px;margin: 0 auto}

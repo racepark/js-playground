@@ -1,3 +1,7 @@
+require('./githubapi.css');
+require('es6-promise').polyfill();
+require('isomorphic-fetch');
+
 const loadRequest = function(user){
     // const httpRequest = new XMLHttpRequest();
     // httpRequest.onreadystatechange = function(){

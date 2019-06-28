@@ -1,3 +1,5 @@
+require('./counter.css');
+
 const counter = {
     number: 0,
     increment: function(number = 1){ // default parameter
